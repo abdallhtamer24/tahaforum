@@ -1,0 +1,14 @@
+# Ignore all files in storage and assets except .gitkeep
+/storage/*
+!/storage/.gitkeep
+
+/assets/*
+!/assets/.gitkeep
+
+# Ignore dependencies and environment files
+/vendor/
+/node_modules/
+.env
+
+# macOS system files
+.DS_Store
